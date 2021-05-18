@@ -14,6 +14,7 @@ public class LoginPage {
 
 	public static void enterUsername(String username) {
 		WebDriverWrapper.driver.findElement(usernameLocator).sendKeys(username);
+		System.out.println("test");
 		}
 
 	public static void enterPassword(String password) {
